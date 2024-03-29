@@ -1,0 +1,35 @@
+@import url(./default.css);
+
+.contentTwo {
+    min-height: 600px;
+    background-color: var(--cinzaMedio);
+}
+
+.h2 {
+    font-family: var(--ms);
+    font-size: 3.625rem;
+    text-shadow: -4px -3px rgba(126, 87, 194, 0.3);
+    color: var(--branco);
+    text-align: justify;
+}
+
+.defaultSection {
+    margin-left: 192px;
+    margin-right: 192px;
+        padding-top: 2rem;
+    text-align: justify;
+}
+
+.sobreMim p,
+.profissional p,
+.habilidades p {
+    margin-left: 1rem;
+    font-family: var(--ms);
+    color: var(--branco);
+    font-size: 1.1rem;
+}
+
+.top {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}

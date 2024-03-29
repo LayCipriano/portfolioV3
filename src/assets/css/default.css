@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --branco: #FFFBEB;
+    --pink: #FB2576;
+    --roxo: #3F0071;
+    --lilas: #7e57c2;
+    --azul: #150050;
+    --cinzaBase: #111418;
+    --cinzaET1: #1C2127;
+    --cinzaET2: #26282C;
+    --cinzaMedio: #3B3D40;
+    --cinzaCT1: #505254;
+    --cinzaCT2: #656668;
+
+    --fontePadrao: Quicksand;
+    --ms: Montserrat;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cinzaBase);
+}

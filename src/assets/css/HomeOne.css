@@ -1,0 +1,48 @@
+@import url(./default.css);
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-height: 600px;
+}
+
+#logoHome {
+    width: 600px;
+    height: 600px;
+}
+
+.imgLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.contentEscrita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: var(--branco);
+}
+
+.contentEscrita h1 {
+    font-size: 3.625rem;
+    font-family: var(--fontePadrao);
+}
+
+.contentEscrita h3 {
+    font-size: 1.2rem;
+    font-family: var(--fontePadrao);
+}
+
+.contentEscrita h1,
+.contentEscrita h3 {
+    font-weight:400;
+}
+
+.changePurple {
+    color: var(--lilas);
+}

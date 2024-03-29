@@ -1,0 +1,37 @@
+@import url(default.css);
+
+header {
+    font-family: var(--fontePadrao);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    box-shadow: 0 1px 20px -4px var(--cinzaMedio);
+}
+
+.logotipo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--branco);
+    padding: 10px;
+    transition: 1.5s;
+}
+
+.links a:hover {
+    color: var(--lilas);
+    transform: 1s;
+}
+
+.links,
+.titleLogo {
+    display: flex;
+    font-size: 1.1rem;
+}
+
+p {
+    color: var(--branco);
+}
