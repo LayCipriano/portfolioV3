@@ -1,4 +1,4 @@
-import '../assets/css/HomeCabecalho.css';
+import '../assets/css/Cabecalho.css';
 
 export const Cabecalho = () => {
     return (

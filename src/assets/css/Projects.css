@@ -1,0 +1,7 @@
+@import url(./default.css);
+
+.contentThree {
+    min-height: 600px;
+    background-color: var(--cinzaET2);
+}
+

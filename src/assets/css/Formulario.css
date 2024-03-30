@@ -1,0 +1,7 @@
+@import url(./default.css);
+
+.bodyForm {
+    background-color: var(--cinzaMedio);
+    width: 400px;
+    height: 420px;
+}

@@ -1,0 +1,34 @@
+@import url(./default.css);
+
+.contentFour {
+    min-height: 600px;
+    background-color: var(--cinzaCT2);
+}
+
+.informacoes {
+    height: 100%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.infoSection {
+    font-family: var(--ms);
+    margin-top: 4rem;
+}
+
+.iconSocial {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.icon {
+    width: 56px;
+    height: 56px;
+}

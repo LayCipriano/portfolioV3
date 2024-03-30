@@ -1,0 +1,80 @@
+@import url(./default.css);
+
+.projetos {
+    display: flex;
+    flex-direction: row;
+    max-width: 1420px;
+    margin: 0 192px;
+    cursor: grab;
+    overflow: hidden;
+}
+
+.cardProjeto {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 8px;
+
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    min-width: 608px;
+
+    background-color: var(--cinzaMedio);
+    border-radius: 3px;
+
+    color: var(--branco);
+}
+
+.inner img {
+    text-align: center;
+    width: 560px;
+    height: 256px;
+    border-radius: 3px;
+}
+
+.inner h3 {
+    font-size: 1.2rem;
+    font-family: var(--fontePadrao);
+    text-align: center;
+    margin: 10px 0;
+}
+
+.descProjeto {
+    font-family: var(--ms);
+    text-align: justify;
+    max-width: 560px;
+    margin: 10px 0;
+}
+
+.btn {
+    min-width: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.acessarProjeto {
+    background-color: var(--lilas);
+    border: none;
+    transition: 1s ease-in-out;
+    border-radius: 3px;
+
+    width: 264px;
+    height: 40px;
+    margin: 10px 0;
+
+    color: var(--branco);
+    font-family: var(--ms);
+    font-weight: 700;
+}
+
+.acessarProjeto:hover {
+    cursor: pointer;
+    background-color: var(--roxo);
+}

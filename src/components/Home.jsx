@@ -1,18 +1,17 @@
-import { Cabecalho } from "./HomeCabecalho.jsx"
+import { Cabecalho } from "./Cabecalho.jsx"
 import { HomeOne } from "./HomeOne.jsx"
-import { HomeTwo } from "./HomeTwo.jsx"
-// import { HomeThree } from "./HomeThree.jsx"
-// import { HomeFour } from "./HomeFour.jsx"
-
+import { About } from "./About.jsx"
+import { Projects } from "./Projects.jsx"
+import { Contact } from "./Contact.jsx"
 
 export const Home = () => {
     return (
         <main>
             <Cabecalho />
             <HomeOne/>
-            <HomeTwo/>
-            {/* <HomeThree/> */}
-            {/* <HomeFour/> */}
+            <About/>
+            <Projects/>
+            <Contact/>
         </main>
     )
 }

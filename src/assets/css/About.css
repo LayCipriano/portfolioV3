@@ -2,7 +2,7 @@
 
 .contentTwo {
     min-height: 600px;
-    background-color: var(--cinzaMedio);
+    background-color: var(--cinzaET1);
 }
 
 .h2 {
@@ -16,7 +16,7 @@
 .defaultSection {
     margin-left: 192px;
     margin-right: 192px;
-        padding-top: 2rem;
+    padding-top: 2rem;
     text-align: justify;
 }
 
