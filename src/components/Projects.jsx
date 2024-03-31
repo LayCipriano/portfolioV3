@@ -1,6 +1,4 @@
 import '../assets/css/Projects.css'
-import img from '../assets/images/projetoImagem.jpg'
-import { motion } from 'framer-motion'
 import {Carrossel } from './Carrossel.jsx'
 
 export const Projects = () => {

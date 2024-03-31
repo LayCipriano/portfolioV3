@@ -2,7 +2,7 @@ import github from '../assets/images/github.png'
 import linkedin from '../assets/images/linkedin.png'
 import email from '../assets/images/email.png'
 
-import {Formulario} from '../components/Formulario.jsx'
+import { Formulario } from '../components/Formulario.jsx'
 import '../assets/css/Contact.css'
 
 export const Contact = () => {
@@ -32,10 +32,7 @@ export const Contact = () => {
                         </a>
                     </div>
                 </div>
-
-                <div className="formulario">
-                    <Formulario/>
-                </div>
+                <Formulario />
             </div>
         </>
     )

@@ -3,6 +3,8 @@
 .contentFour {
     min-height: 600px;
     background-color: var(--cinzaCT2);
+    display: flex;
+    flex-direction: row;
 }
 
 .informacoes {
