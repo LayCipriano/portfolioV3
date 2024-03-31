@@ -3,5 +3,9 @@
 .contentThree {
     min-height: 600px;
     background-color: var(--cinzaET2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
