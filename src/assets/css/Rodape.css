@@ -1,0 +1,11 @@
+@import url(./default.css);
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--fontePadrao);
+    font-size: .8rem;
+    height: 54px;
+}

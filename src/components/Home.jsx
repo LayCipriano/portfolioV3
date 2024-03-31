@@ -3,6 +3,7 @@ import { HomeOne } from "./HomeOne.jsx"
 import { About } from "./About.jsx"
 import { Projects } from "./Projects.jsx"
 import { Contact } from "./Contact.jsx"
+import { Rodape } from "./Rodape.jsx"
 
 export const Home = () => {
     return (
@@ -12,6 +13,7 @@ export const Home = () => {
             <About/>
             <Projects/>
             <Contact/>
+            <Rodape/>
         </main>
     )
 }

@@ -8,7 +8,9 @@
 }
 
 .informacoes {
-    height: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
 }
 
 .section {
@@ -25,6 +27,7 @@
 .iconSocial {
     display: flex;
     flex-direction: row;
+    align-self: center;
     width: 30%;
     justify-content: space-around;
     margin-top: 4rem;
